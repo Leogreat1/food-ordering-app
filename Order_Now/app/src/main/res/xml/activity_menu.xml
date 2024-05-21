@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Sample item layout -->
+    <TextView
+        android:id="@+id/textViewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Item 1" />
+
+    <Button
+        android:id="@+id/buttonOrderItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Item 1" />
+</LinearLayout>
